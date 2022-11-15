@@ -1,5 +1,6 @@
 a=int(input("Anno:")) #immetti anno
 #metodo A
+if(a%4 != 0):
     print("Anno non Bisestile")
 elif(a%100!=0):
     print("Anno Bisestile")
