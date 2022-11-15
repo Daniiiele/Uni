@@ -16,5 +16,5 @@ elif 30.01==I or I<=35.00:
     print("Obesità di I classe (moderata)")
 elif 35.01==I or I<=40.00:
     print("Obesità di II classe (grave)")
-elif I>40.00:
+else I>40.00:
     print("Obesità di III classe (gravissima)")
